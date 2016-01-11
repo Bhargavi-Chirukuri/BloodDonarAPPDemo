@@ -51,7 +51,7 @@ namespace BloodDonarAPPDemo
             {
                 Geopoint mypoint = new Geopoint(new BasicGeoposition { Latitude = Convert.ToDouble(det.lat), Longitude = Convert.ToDouble(det.lng) });
                  myPOI = new MapIcon { Location = mypoint, NormalizedAnchorPoint = new Point(0.5, 1.0), Title = ++count+"", ZIndex = 0 };
-                // add to map and center it
+                // add to map and center i
                 // myPOI = new MapIcon { Location = myPoint, NormalizedAnchorPoint = new Point(0.5, 1.0), Title = "My position", ZIndex = 0 };
                 mymap.MapElements.Add(myPOI);
   
